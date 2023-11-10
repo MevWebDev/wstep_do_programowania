@@ -1,0 +1,7 @@
+a = int(input("Podaj a: "))
+b = int(input("Podaj b: "))
+c = int(input("Podaj c: "))
+d = int(input("Podaj d: "))
+e = int(input("Podaj e: "))
+sorted = sorted([a,b,c,d,e])
+print(sorted)
