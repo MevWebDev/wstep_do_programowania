@@ -1,5 +1,5 @@
 import random
-n = 3
+n = 4
 suma1 = 0
 suma2 = 0
 suma = 0
