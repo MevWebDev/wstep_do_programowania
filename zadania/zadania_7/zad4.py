@@ -18,12 +18,12 @@ def szukajX(x,lista):
         if list[mid]==x:
             for i in range(1,len(lista)):
                 
-                if mid + 1 < len(lista) and lista[mid+1]!=x:
+                if list[mid] != list[mid+i]:
                     
                     return mid
                 else:
+                    mid+=1
                     
-                    return mid
 
         elif list[mid]>x:
 
