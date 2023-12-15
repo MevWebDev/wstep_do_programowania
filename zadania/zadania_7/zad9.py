@@ -8,7 +8,7 @@ def sort_by_max(lista):
         for j in range (1,len(lista)-i):
             if lista[max] < lista[j]:
                 max = j
-        print(list[max])
+        
         
         swap = lista[-1-i]
         lista[-1-i] = list[max]
