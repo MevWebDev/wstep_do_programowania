@@ -1,0 +1,26 @@
+zad1. Napisz funkcję wstaw(lista) która wstawia ostatni element listy  we właściwe miejsce w posortowanej liście A. (np A=[1,3,5,7,9,2] daje wynik A=[1,2,3,5,7,9])
+
+Założenia: lista składa się z części posortowanej (od 0 do przedostatniego elementu) oraz ostatniej wartości.  
+
+zad2 Napisz funkcję sortowanie przez wstawianie. Funkcja powinna wykorzystywać funkcję analogiczną do tej napisanej w zad 1. (wstaw (lista) - lista jest dowolnej długości, wiemy że elementy na pozycjach [0 , indeks -1] są posortowane; po wykonaniu wstaw (lista) posortowane będą elementy na pozycjach [0, indeks].
+
+zad3. Niech dana będzie lista znaków [b,b,c,c,c,c,c,c,c,b,b,b,c] (nie wiadomo ile jest b, ile jest c, wiadomo, że jest co najmniej jedno b, co najmniej jedno c, wiadomo jak jest dlugość listy). Wykorzystując swap (funkcja zamieniająca miejscami dwa elementy na różnych pozycjach) ułóż flagę biało czerwoną. (nie modyfikuj długości listy, możesz użyć tylko jednej pętli)
+
+zad4. Napisz funkcję, która z listy list wypisze te elementy które mają taką samą wartość na tej samej pozycji w podlistach (np [[1,2,3,4,5]. [5,2,3,4,1], [6,7,3,14]] oczekiwany wynik to 3
+
+zad5. znajdź różnicę pomiędzy sąsiednimi elementami listy (np dla [1,1,3,4,4,5,7]  wynik to [0,2,1,0,1,2]
+
+zad6. Znajdź elementy, które się powtarzają bezpośrednio po sobie (np [1,1,3,4,4,5,6,7] -> 1,4; dla [1,2,3,4,4,4,6,7] ->4)
+
+zad7 Policz średnią liczb danych za pomocą listy 
+* co jeżeli lista zawiera nie tylko liczby? Czy potrafisz policzyć średnią tylko z liczb?
+
+zad 8 Znajdź elementy które się najczęściej powtarzają w nieuporządkowanej liście
+a) Top 1 zakładając że lista zawiera tylko cyfry
+b) Top 3 -//-
+c) Top 1 nie wiedząc jakie wartości będą na liście
+d) Top 2  -//-
+
+Zad 9 mając dane 3 listy znajdź parę sąsiednich elementów, która się najczęściej się powtarza
+
+Zad 10 znajdź podciąg o największej sumie (ile pętli należy użyć? czy da się mniej?)
