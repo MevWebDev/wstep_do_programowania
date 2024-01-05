@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div id="hero">WPISYWACZ NUMERU TELEFONU</div>
+    <div id="app">
+        <label for="digit1">Digit 1:</label>
+        <input type="text" id="digit1" readonly>
+
+        <label for="digit2">Digit 2:</label>
+        <input type="text" id="digit2" readonly>
+
+        <label for="digit3">Digit 3:</label>
+        <input type="text" id="digit3" readonly>
+
+        <label for="digit4">Digit 4:</label>
+        <input type="text" id="digit4" readonly>
+
+        <label for="digit5">Digit 5:</label>
+        <input type="text" id="digit5" readonly>
+
+        <label for="digit6">Digit 6:</label>
+        <input type="text" id="digit6" readonly>
+
+        <label for="digit7">Digit 7:</label>
+        <input type="text" id="digit7" readonly>
+
+        <label for="digit8">Digit 8:</label>
+        <input type="text" id="digit8" readonly>
+
+        <label for="digit9">Digit 9:</label>
+        <input type="text" id="digit9" readonly>
+
+        <div class="radio-group">
+            <!-- Radio buttons for digit1 -->
+            <input type="radio" name="digit1Radio" id="radio0_digit1" onchange="changeDigit('digit1', 0)">
+            <input type="radio" name="digit1Radio" id="radio1_digit1" onchange="changeDigit('digit1', 1)">
+            <input type="radio" name="digit1Radio" id="radio2_digit1" onchange="changeDigit('digit1', 2)">
+            <input type="radio" name="digit1Radio" id="radio3_digit1" onchange="changeDigit('digit1', 3)">
+            <input type="radio" name="digit1Radio" id="radio4_digit1" onchange="changeDigit('digit1', 4)">
+            <input type="radio" name="digit1Radio" id="radio5_digit1" onchange="changeDigit('digit1', 5)">
+            <input type="radio" name="digit1Radio" id="radio6_digit1" onchange="changeDigit('digit1', 6)">
+            <input type="radio" name="digit1Radio" id="radio7_digit1" onchange="changeDigit('digit1', 7)">
+            <input type="radio" name="digit1Radio" id="radio8_digit1" onchange="changeDigit('digit1', 8)">
+            <input type="radio" name="digit1Radio" id="radio9_digit1" onchange="changeDigit('digit1', 9)">
+            <!-- Add similar radio buttons for digit2, digit3, ..., digit9 -->
+        </div>
+        
+
+        <div class="radio-group">
+            <!-- Radio buttons for digit2 -->
+            <input type="radio" name="digit2Radio" id="radio0_digit2" onchange="changeDigit('digit2', 0)">
+            <input type="radio" name="digit2Radio" id="radio1_digit2" onchange="changeDigit('digit2', 1)">
+            <input type="radio" name="digit2Radio" id="radio2_digit2" onchange="changeDigit('digit2', 2)">
+            <input type="radio" name="digit2Radio" id="radio3_digit2" onchange="changeDigit('digit2', 3)">
+            <input type="radio" name="digit2Radio" id="radio4_digit2" onchange="changeDigit('digit2', 4)">
+            <input type="radio" name="digit2Radio" id="radio5_digit2" onchange="changeDigit('digit2', 5)">
+            <input type="radio" name="digit2Radio" id="radio6_digit2" onchange="changeDigit('digit2', 6)">
+            <input type="radio" name="digit2Radio" id="radio7_digit2" onchange="changeDigit('digit2', 7)">
+            <input type="radio" name="digit2Radio" id="radio8_digit2" onchange="changeDigit('digit2', 8)">
+            <input type="radio" name="digit2Radio" id="radio9_digit2" onchange="changeDigit('digit2', 9)">
+
+        </div>
+        
+        <div class="radio-group">
+            <!-- Radio buttons for digit2 -->
+            <input type="radio" name="digit3Radio" id="radio0_digit2" onchange="changeDigit('digit3', 0)">
+            <input type="radio" name="digit3Radio" id="radio1_digit2" onchange="changeDigit('digit3', 1)">
+            <input type="radio" name="digit3Radio" id="radio2_digit2" onchange="changeDigit('digit3', 2)">
+            <input type="radio" name="digit3Radio" id="radio3_digit2" onchange="changeDigit('digit3', 3)">
+            <input type="radio" name="digit3Radio" id="radio4_digit2" onchange="changeDigit('digit3', 4)">
+            <input type="radio" name="digit3Radio" id="radio5_digit2" onchange="changeDigit('digit3', 5)">
+            <input type="radio" name="digit3Radio" id="radio6_digit2" onchange="changeDigit('digit3', 6)">
+            <input type="radio" name="digit3Radio" id="radio7_digit2" onchange="changeDigit('digit3', 7)">
+            <input type="radio" name="digit3Radio" id="radio8_digit2" onchange="changeDigit('digit3', 8)">
+            <input type="radio" name="digit3Radio" id="radio9_digit2" onchange="changeDigit('digit3', 9)">
+
+        </div>
+        
+        <div class="radio-group">
+            <!-- Radio buttons for digit2 -->
+            <input type="radio" name="digit4Radio" id="radio0_digit2" onchange="changeDigit('digit4', 0)">
+            <input type="radio" name="digit4Radio" id="radio1_digit2" onchange="changeDigit('digit4', 1)">
+            <input type="radio" name="digit4Radio" id="radio2_digit2" onchange="changeDigit('digit4', 2)">
+            <input type="radio" name="digit4Radio" id="radio3_digit2" onchange="changeDigit('digit4', 3)">
+            <input type="radio" name="digit4Radio" id="radio4_digit2" onchange="changeDigit('digit4', 4)">
+            <input type="radio" name="digit4Radio" id="radio5_digit2" onchange="changeDigit('digit4', 5)">
+            <input type="radio" name="digit4Radio" id="radio6_digit2" onchange="changeDigit('digit4', 6)">
+            <input type="radio" name="digit4Radio" id="radio7_digit2" onchange="changeDigit('digit4', 7)">
+            <input type="radio" name="digit4Radio" id="radio8_digit2" onchange="changeDigit('digit4', 8)">
+            <input type="radio" name="digit4Radio" id="radio9_digit2" onchange="changeDigit('digit4', 9)">
+
+        </div>
+        
+        <div class="radio-group">
+            <!-- Radio buttons for digit2 -->
+            <input type="radio" name="digit5Radio" id="radio0_digit2" onchange="changeDigit('digit5', 0)">
+            <input type="radio" name="digit5Radio" id="radio1_digit2" onchange="changeDigit('digit5', 1)">
+            <input type="radio" name="digit5Radio" id="radio2_digit2" onchange="changeDigit('digit5', 2)">
+            <input type="radio" name="digit5Radio" id="radio3_digit2" onchange="changeDigit('digit5', 3)">
+            <input type="radio" name="digit5Radio" id="radio4_digit2" onchange="changeDigit('digit5', 4)">
+            <input type="radio" name="digit5Radio" id="radio5_digit2" onchange="changeDigit('digit5', 5)">
+            <input type="radio" name="digit5Radio" id="radio6_digit2" onchange="changeDigit('digit5', 6)">
+            <input type="radio" name="digit5Radio" id="radio7_digit2" onchange="changeDigit('digit5', 7)">
+            <input type="radio" name="digit5Radio" id="radio8_digit2" onchange="changeDigit('digit5', 8)">
+            <input type="radio" name="digit5Radio" id="radio9_digit2" onchange="changeDigit('digit5', 9)">
+
+        </div>
+        
+        <div class="radio-group">
+            <!-- Radio buttons for digit2 -->
+            <input type="radio" name="digit6Radio" id="radio0_digit2" onchange="changeDigit('digit6', 0)">
+            <input type="radio" name="digit6Radio" id="radio1_digit2" onchange="changeDigit('digit6', 1)">
+            <input type="radio" name="digit6Radio" id="radio2_digit2" onchange="changeDigit('digit6', 2)">
+            <input type="radio" name="digit6Radio" id="radio3_digit2" onchange="changeDigit('digit6', 3)">
+            <input type="radio" name="digit6Radio" id="radio4_digit2" onchange="changeDigit('digit6', 4)">
+            <input type="radio" name="digit6Radio" id="radio5_digit2" onchange="changeDigit('digit6', 5)">
+            <input type="radio" name="digit6Radio" id="radio6_digit2" onchange="changeDigit('digit6', 6)">
+            <input type="radio" name="digit6Radio" id="radio7_digit2" onchange="changeDigit('digit6', 7)">
+            <input type="radio" name="digit6Radio" id="radio8_digit2" onchange="changeDigit('digit6', 8)">
+            <input type="radio" name="digit6Radio" id="radio9_digit2" onchange="changeDigit('digit6', 9)">
+
+        </div>
+        
+        <div class="radio-group">
+            <!-- Radio buttons for digit2 -->
+            <input type="radio" name="digit7Radio" id="radio0_digit2" onchange="changeDigit('digit7', 0)">
+            <input type="radio" name="digit7Radio" id="radio1_digit2" onchange="changeDigit('digit7', 1)">
+            <input type="radio" name="digit7Radio" id="radio2_digit2" onchange="changeDigit('digit7', 2)">
+            <input type="radio" name="digit7Radio" id="radio3_digit2" onchange="changeDigit('digit7', 3)">
+            <input type="radio" name="digit7Radio" id="radio4_digit2" onchange="changeDigit('digit7', 4)">
+            <input type="radio" name="digit7Radio" id="radio5_digit2" onchange="changeDigit('digit7', 5)">
+            <input type="radio" name="digit7Radio" id="radio6_digit2" onchange="changeDigit('digit7', 6)">
+            <input type="radio" name="digit7Radio" id="radio7_digit2" onchange="changeDigit('digit7', 7)">
+            <input type="radio" name="digit7Radio" id="radio8_digit2" onchange="changeDigit('digit7', 8)">
+            <input type="radio" name="digit7Radio" id="radio9_digit2" onchange="changeDigit('digit7', 9)">
+
+        </div>
+        
+        <div class="radio-group">
+            <!-- Radio buttons for digit2 -->
+            <input type="radio" name="digit8Radio" id="radio0_digit2" onchange="changeDigit('digit8', 0)">
+            <input type="radio" name="digit8Radio" id="radio1_digit2" onchange="changeDigit('digit8', 1)">
+            <input type="radio" name="digit8Radio" id="radio2_digit2" onchange="changeDigit('digit8', 2)">
+            <input type="radio" name="digit8Radio" id="radio3_digit2" onchange="changeDigit('digit8', 3)">
+            <input type="radio" name="digit8Radio" id="radio4_digit2" onchange="changeDigit('digit8', 4)">
+            <input type="radio" name="digit8Radio" id="radio5_digit2" onchange="changeDigit('digit8', 5)">
+            <input type="radio" name="digit8Radio" id="radio6_digit2" onchange="changeDigit('digit8', 6)">
+            <input type="radio" name="digit8Radio" id="radio7_digit2" onchange="changeDigit('digit8', 7)">
+            <input type="radio" name="digit8Radio" id="radio8_digit2" onchange="changeDigit('digit8', 8)">
+            <input type="radio" name="digit8Radio" id="radio9_digit2" onchange="changeDigit('digit8', 9)">
+
+        </div>
+        
+        <div class="radio-group">
+            <!-- Radio buttons for digit2 -->
+            <input type="radio" name="digit9Radio" id="radio0_digit2" onchange="changeDigit('digit9', 0)">
+            <input type="radio" name="digit9Radio" id="radio1_digit2" onchange="changeDigit('digit9', 1)">
+            <input type="radio" name="digit9Radio" id="radio2_digit2" onchange="changeDigit('digit9', 2)">
+            <input type="radio" name="digit9Radio" id="radio3_digit2" onchange="changeDigit('digit9', 3)">
+            <input type="radio" name="digit9Radio" id="radio4_digit2" onchange="changeDigit('digit9', 4)">
+            <input type="radio" name="digit9Radio" id="radio5_digit2" onchange="changeDigit('digit9', 5)">
+            <input type="radio" name="digit9Radio" id="radio6_digit2" onchange="changeDigit('digit9', 6)">
+            <input type="radio" name="digit9Radio" id="radio7_digit2" onchange="changeDigit('digit9', 7)">
+            <input type="radio" name="digit9Radio" id="radio8_digit2" onchange="changeDigit('digit9', 8)">
+            <input type="radio" name="digit9Radio" id="radio9_digit2" onchange="changeDigit('digit9', 9)">
+
+        </div>
+
+        
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
