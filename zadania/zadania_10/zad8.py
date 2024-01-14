@@ -6,7 +6,7 @@ dic = {'I':1,
        'D':500,
        'M':1000
     }
-liczba = 429
+liczba = 973
 def dec_to_rome(dic,liczba):
     i = 0
     rome = ''
