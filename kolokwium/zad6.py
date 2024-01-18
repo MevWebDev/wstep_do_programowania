@@ -59,12 +59,23 @@ def bubblesort(grocery_list):
 
 def SEARCH(val,grocery_list):
     grocery_list = bubblesort(grocery_list)
-    print(grocery_list)
     list = []
-    for i in range(len(grocery_list)):
-        if grocery_list[i]["ilość"] < val:
-            list.append(grocery_list[i]["ID"])
-    if len(list) == 0:
+    l = 0
+    p = len(grocery_list)
+    if p == 0:
+        return -1
+    while True:
+        s = (l+p)//2
+        if grocery_list[s]["ilość"]<val:
+            list.append(grocery_list[s]["ID"])
+            grocery_list.pop(s)
+            l = 0
+            p = len(grocery_list)
+        elif p-l == 1:
+            break
+        elif grocery_list[s]["ilość"] >= val:
+            p=s
+    if list == []:
         return -1
     return list
 
