@@ -22,3 +22,4 @@ file_cesar.write(zakodowane + "\n")
 
 file.close()
 file_cesar.close()
+
